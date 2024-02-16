@@ -1,3 +1,6 @@
+#inicio del programa
+#autores:gustavo paez,victor marcano,andres chavez
+
 import numpy as np
 
 class MetodoPotencia:
@@ -33,3 +36,4 @@ if __name__ == "__main__":
     eigenvalor, eigenvector = MetodoPotencia().metodo_potencia(matriz, iteraciones)
     print(f"eigenvalor dominante: {eigenvalor:.4f}")
     print(f"eigenvector dominante: \n{eigenvector}")
+# fin del programa 

@@ -1,3 +1,5 @@
+# inicio del programa
+#autores: gustavo paez, victor marcano, andres chavez
 import numpy as np
 
 class LagrangeInterpolator:
@@ -28,3 +30,6 @@ x_int = 3
 y_int = lagrange.interpolate(x_int)
 
 print(f"y({x_int}) = {y_int}")
+
+
+#fin del programa 
